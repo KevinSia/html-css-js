@@ -1,6 +1,5 @@
 # The aesthetics of a website
 
-
 ## Introduction
 
 In the *The backbone of a website* challenge we've tried to make a simple website with HTML.
@@ -107,4 +106,5 @@ CSS rule to select `id`:
 }
 ```
 
-> Small note: You can try making two elements have same `id`, and your CSS rule will be applied to both elements.
+> Small note: You can try making two elements have same `id`, and your CSS rule will still be applied to both elements, but Javascript will only recognize the first element that has this `id`.
+> Fun fact: An element with an `id` has a privilege due to it's uniqueness: https://css-tricks.com/the-difference-between-id-and-class/#article-header-id-5

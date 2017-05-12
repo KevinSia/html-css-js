@@ -79,11 +79,13 @@ However, some HTML tags may not need a closing tag.
 <input>
 <br>
 ```
+> Not <input></input> or <br></br>
 
 You can even make your own HTML tags!
 ```html
 <cool></cool>
 ```
+But it will not have any visual effect nor special features.
 
 Some HTML tags requires specific *attributes* to work.
 ```html
